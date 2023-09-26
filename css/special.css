@@ -66,6 +66,206 @@
 }
 
 
+/** ABOUT US PAGE **/
+.platform-about-us-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    background-color: #FFE24E !important;
+    padding: 20px 50px !important;
+    margin-bottom: 50px;
+}
+
+.platform-about-us-header > a > img {
+    max-width: 130px;
+}
+
+.paltform-about-us-main {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px !important;
+    justify-content: space-between;
+    flex-wrap: wrap !important;
+}
+
+.paltform-about-us-main > section {
+    width: 100% !important;
+}
+
+.platform-abour-us-bside-box {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px;
+}
+
+.platform-abour-us-bside-box > img {
+    max-width: 80px;
+    max-height: 80px;
+    margin-right: 20px;
+}
+
+.platform-about-us-text-wrapper > h3 {
+    margin: 0 !important;
+    color: #ffd04e;
+}
+
+.platform-about-us-text-wrapper > h4 {
+    max-width: 70% !important;
+}
+
+.paltform-about-us-bside {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.paltform-about-us-bside > div {
+    width: 30% !important;
+    min-width: 30% !important;
+}
+
+.paltform-about-us-aside {
+    display: flex;
+    margin-bottom: 50px !important;
+}
+
+.paltform-about-us-aside > div {
+    width: 50% !important;
+}
+
+.paltform-about-us-aside > div > img {
+    max-width: 100% !important;
+}
+
+.paltform-about-us-aside > div > h4 {
+    max-width: 70% !important;
+    font-size: 25px !important;
+}
+
+.paltform-about-us-aside > div > h2 {
+    font-size: 50px;
+    color: #ffd04e;
+}
+
+/** Pricing page **/
+.pricing-image-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.pricing-image-wrapper > img {
+    max-width: 100% !important;
+}
+
+.plans-wrapper {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.plans-wrapper > div {
+    border: 3px solid #ffd04e;
+    border-radius: 30px;
+    min-height: 200px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+} 
+
+.plans-wrapper > div:hover {
+    transition: .5s;
+    border: 3px solid #ffdb7a;
+}
+
+.plans-wrapper > div > h3 {
+    font-size: 30px;
+    margin: 0 !important;
+    width: 100%;
+    text-align: center;
+    background-color: #ffd04e;
+    border-radius: 30px 30px 0px 0px;
+    padding: 10px 0px;
+}
+
+.plans-wrapper > div > ul {
+    box-sizing: border-box;
+    width: 100% !important;
+    padding: 0px 50px;
+    list-style-type: square;
+}
+
+.plans-wrapper > div > ul > li {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.fixed-fee-wrapper {
+    margin-right: 150px;
+}
+
+@media (max-width: 1024px) {
+    .paltform-about-us-main {
+        flex-direction: column !important;
+    }
+
+    .paltform-about-us-main > section {
+        width: 100% !important;
+    }
+
+    .paltform-about-us-aside > h2 {
+        font-size: 30px;
+        margin-top: 20px;
+    }
+
+    .paltform-about-us-aside {
+        margin-bottom: 50px;
+    }
+
+    .paltform-about-us-bside > div {
+        width: 100% !important;
+        min-width: 100% !important;
+    }
+
+    .paltform-about-us-aside > div > h4 {
+        font-size: 20px !important;
+    }
+
+    .paltform-about-us-aside > div > h2 {
+        margin:  0 !important;
+    }
+}
+
+@media (max-width: 776px) {
+    .paltform-about-us-aside-image-wrapper{
+        display: none !important;
+    }
+
+    .paltform-about-us-aside > div {
+        max-width: 100% !important; 
+        width: 100% !important;
+    }
+
+    .paltform-about-us-aside > div > h4 {
+        max-width: 100% !important;
+    }
+
+    .fixed-fee-wrapper {
+        margin-right: 0px !important;
+        margin-bottom: 100px;
+    }
+
+    .plans-wrapper {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 200px !important;
+    }
+
+}
+
 @media (max-width: 576px) {
     .hfe-menu-item {
         display: none !important;
@@ -104,5 +304,25 @@
     .special-mobile-menu > ul > a > li {
         margin: 15px 0px;
         font-size: 16px;
+    }
+
+    .shopshop-logo-white {
+        display: none !important;
+    }
+
+    .platform-abour-us-bside-box > img {
+        display: none;
+    }
+
+    .paltform-about-us-aside > h4 {
+        max-width: 100% !important;
+    }
+
+    .platform-about-us-text-wrapper > h4 {
+        max-width: 100% !important;
+    }
+
+    .plans-wrapper > div {
+        width: 100% !important;
     }
 }
