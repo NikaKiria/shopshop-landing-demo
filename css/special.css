@@ -204,8 +204,25 @@
     margin-bottom: 10px;
 }
 
-.fixed-fee-wrapper {
+.plus-wrapper {
+    font-size: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #4054B2;
+    margin: 0px 80px;
+}
+
+/* .fixed-fee-wrapper {
     margin-right: 150px;
+} */
+
+.FloatingButton__FloatingButtonContainer-sc-q5md4t-0 {
+    margin-bottom: 80px !important;
+}
+
+.Window__WindowComponent-sc-1wwhwms-2 {
+    margin-bottom: 150px !important;
 }
 
 @media (max-width: 1024px) {
@@ -254,15 +271,19 @@
         max-width: 100% !important;
     }
 
-    .fixed-fee-wrapper {
+    /* .fixed-fee-wrapper {
         margin-right: 0px !important;
         margin-bottom: 100px;
-    }
+    } */
 
     .plans-wrapper {
         flex-direction: column;
         align-items: center;
         margin-bottom: 200px !important;
+    }
+
+    .plus-wrapper {
+        margin: 80px 0px !important;
     }
 
 }
